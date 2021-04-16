@@ -74,6 +74,12 @@ body {
   background-color: #00000000;
 }
 
+#editButton {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
 #themeButton__icon {
   width: 25px;
   height: 25px;

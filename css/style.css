@@ -76,18 +76,19 @@ body {
 
 #editButton {
   text-decoration: none;
+  color: #d8dee9;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
 }
 
 #editButton:hover {
-  color: inherit;
+  color: #d8dee9;
   text-decoration: none;
 }
 
 #editButton:visited {
-  color: inherit;
+  color: #d8dee9;
   text-decoration: none;
 }
 

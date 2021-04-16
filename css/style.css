@@ -75,9 +75,20 @@ body {
 }
 
 #editButton {
+  text-decoration: none;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
+}
+
+#editButton:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+#editButton:visited {
+  color: inherit;
+  text-decoration: none;
 }
 
 #themeButton__icon {

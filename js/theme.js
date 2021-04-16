@@ -1,6 +1,7 @@
 // Store the theme
 let darkTheme = localStorage.getItem("darkTheme");
 const themeToggle = document.querySelector("#themeButton");
+const editButton = document.querySelector("#editButton");
 
 // Apply Dark theme
 const enableDark = () => {
@@ -32,6 +33,10 @@ themeToggle.addEventListener("click", () => {
   } else {
     disableDark();
   }
+});
+
+editButton.addEventListener("click", () => {
+  window.location = "https://github.com/DeWolfRobin/Bento/edit/master/index.html";
 });
 
 // Theme accordint the hour
